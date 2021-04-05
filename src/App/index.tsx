@@ -7,13 +7,24 @@ import React, {
 } from "react";
 import { useSelector, useDispatch } from "react-redux";
 //below react-redux import
+// REGULAR REDUX
+// import {
+//   createTodoActionCreator,
+//   editTodoActionCreator,
+//   toggleTodoActionCreator,
+//   deleteTodoActionCreator,
+//   selectTodoActionCreator
+// } from "../redux-og";
+
+// RTK
 import {
   createTodoActionCreator,
   editTodoActionCreator,
   toggleTodoActionCreator,
   deleteTodoActionCreator,
   selectTodoActionCreator
-} from "../redux-og";
+} from '../redux-toolkit';
+
 import { State } from "../type";
 import "./App.css";
 
